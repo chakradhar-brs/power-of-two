@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Power of Two Checker</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Power of Two Checker</h1>
+      <p>
+        The isPowerOfTwo function takes an integer n as an argument and returns
+        false if n is less than or equal to 0. Otherwise, it performs a bitwise
+        AND operation between n and (n - 1). If the result of this operation is
+        0, then n is a power of 2, and the function returns true. Otherwise, it
+        returns false.
+      </p>
+      <label for="inputNumber">Enter an integer:</label>
+      <input type="number" id="inputNumber" placeholder="Enter integer" />
+      <button onclick="checkPowerOfTwo()">Check</button>
+      <p id="result"></p>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
